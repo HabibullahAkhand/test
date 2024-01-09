@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+
+header>nav {
+    background-image: url('resources/Banner-Image.png');
+    height: 600px;
+    width: 1320px;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    position: relative;
+}
+
+.header-title {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    height: 600px;
+    width: 1320px;
+}
+
+.header-content {
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.header-content>h3 {
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.header-content>h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 1000px;
+    /* line-height: 95px; */
+    width: 632px;
+    margin-top: 16px;
+}
+
+/* section discount */
+.discount-container {
+    margin-top: 120px;
+}
+
+.discount-content h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-content h4 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-content h2 {
+    margin-top: 0;
+    margin-bottom: 48px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-img {
+    width: 802.9px;
+    height: 500px;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: auto;
+}
+
+/* party section */
+
+.party-container {
+    background-image: url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    position: relative;
+}
+
+.add-second-img {
+    background-image: url('resources/Group-70.png');
+    width: 319.83px;
+    height: 464.662px;
+
+}
+
+.party-img-edit {
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+}
+
+.party-description h1 {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-top: 126px;
+    margin-bottom: 24px;
+}
+
+.party-description p {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.party-description h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-left: 158px;
+}
+
+.party-flex {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 5%;
+    margin-left: 126px;
+}
+
+/* hotel section */
+
+.hotel-container {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px auto;
+    border-radius: 16px;
+
+}
+
+.hotel-description {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hotel-description span {
+    color: #F00;
+}
+
+.hotel-container .button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 48px 570px;
+}
+
+/* offer section */
+.offer-container {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    margin: 120px auto;
+}
+
+.offer-section-p1 h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 104px;
+    margin-bottom: 16px;
+}
+
+.offer-section-p1 h2 {
+    margin-bottom: 22px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.offer-section-p1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.offer-section-p2 {
+    margin-left: 70px;
+    margin-right: 118px;
+}
+
+.offer-section-p2 img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 48px;
+}
+
+.offer-section-p3 h2 {
+    margin-top: 112px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-section-p3 p {
+    margin-top: 16px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    width: 276px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-section-p3 img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+/*  Holiday section */
+
+.holiday-container {
+    width: 1320px;
+    height: 986px;
+    margin: 120px auto;
+}
+
+.holiday-description {
+    margin-bottom: 64px;
+}
+
+.holiday-description h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holiday-description h1 {
+    margin-bottom: 28px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.holiday-description span {
+    color: #F00;
+}
+
+.holiday-description p {
+    width: 1068px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0 auto;
+}
+
+.holiday-image {
+    width: 1320px;
+    height: 662px;
+}
+
+.holiday-image-no1 {
+    background-image: url('resources/Rectangle-2.png');
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    position: relative;
+    top: 65.5%;
+}
+
+.holiday-image-no2 {
+    background-image: url('resources/Group-75.png');
+    background-repeat: no-repeat;
+    height: 662px;
+    width: 796.463px;
+    position: absolute;
+    transform: translate(0%, -34.5%);
+}
+
+.holiday-image-no3 {
+    background-image: url('resources/Rectangle-1.png');
+    background-repeat: no-repeat;
+    width: 429px;
+    height: 433px;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+    transform: translate(208%, -52.5%);
+}
+
+.holiday-image-no4 {
+    background-image: url('resources/Group-44.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: translate(250%, -200%);
+}
+
+/* gift section */
+
+.gift-container {
+
+    height: 1163px;
+    width: 1320px;
+    margin: 120px auto;
+}
+
+.gift-description h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.gift-description h2 {
+    margin-bottom: 22px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.gift-description p {
+    margin-bottom: 48px;
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.gift-images {
+    height: 924px;
+    width: 1320px;
+}
+
+.gift-image-row1,
+.gift-image-row2 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.gift-images img {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
+
+.gift-images img:hover {
+    opacity: 0.5;
+}
+
+/* Subscribe section */
+.subscribe-container {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    padding-top: 80px;
+}
+
+.subscribe-img {
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.subscribe-description h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.subscribe-description p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 22px 212px;
+}
+
+.subscribe-form {
+    display: flex;
+    padding: 48px 336px;
+}
+
+.subscribe-form #gmail {
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.subscribe-form #btn {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* footer section */
+footer {
+    height: 609px;
+    background: #070211;
+}
+
+.footer-section {
+    height: 609px;
+    width: 1320px;
+    /* border: 1px solid white; */
+    margin: 120px auto;
+}
+
+.contact {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.locetion {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.phn-num {
+    height: 80px;
+    width: 251px;
+    margin-right: 135px;
+}
+
+.phn-num a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.first-hr {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.last-hr {
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px 0px;
+}
+
+.copyright-section {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-section p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.copyright-section button {
+    color: #FFF;
+    background-color: #070211;
+    border: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
